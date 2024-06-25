@@ -1,0 +1,12 @@
+{
+  "extends": ["next/core-web-vitals", "eslint:recommended", "prettier"],
+  "plugins": ["unused-imports"],
+  "globals": {
+    "JSX": "readonly"
+  },
+  "rules": {
+    "no-duplicate-case": "off",
+    "no-unused-vars": "warn",
+    "no-func-assign": "error"
+  }
+}
